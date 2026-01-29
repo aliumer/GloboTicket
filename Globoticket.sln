@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globoticket.Client", "Globoticket.Client\Globoticket.Client.csproj", "{3FEC00B8-2133-4164-9F7E-5B3697D8B6F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{6FAE5CDA-860A-4E1E-92F8-4683D9611D92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globoticket.Services.Discount", "Globoticket.Services.Discount\Globoticket.Services.Discount.csproj", "{C2DF9C1F-82C2-4499-AD90-B8339B96F9F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globoticket.Services.EventCatalog", "Globoticket.Services.EventCatalog\Globoticket.Services.EventCatalog.csproj", "{2C5F43EE-8D85-4F88-8347-B5661134A17B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globoticket.Services.Ordering", "Globoticket.Services.Ordering\Globoticket.Services.Ordering.csproj", "{33BE7634-EF9C-48F8-9385-5FEFBA2B6200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globoticket.Services.ShoppingBasket", "Globoticket.Services.ShoppingBasket\Globoticket.Services.ShoppingBasket.csproj", "{690236DE-3244-4D57-8143-9ED2547D7820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globoticket.Integration.Messages", "Globoticket.Integration.Messages\Globoticket.Integration.Messages.csproj", "{8AB087D4-1756-4684-8E1A-216D5BFC1E93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globoticket.Integration.MessagingBus", "Globoticket.Integration.MessagingBus\Globoticket.Integration.MessagingBus.csproj", "{CED3E1D7-895D-4538-A6B5-A75B6773453F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globoticket.Services.Identity", "Globoticket.Services.Identity\Globoticket.Services.Identity.csproj", "{B7219CD9-66D4-CC9C-136D-3D83AC4884B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FEC00B8-2133-4164-9F7E-5B3697D8B6F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FEC00B8-2133-4164-9F7E-5B3697D8B6F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FEC00B8-2133-4164-9F7E-5B3697D8B6F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FEC00B8-2133-4164-9F7E-5B3697D8B6F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2DF9C1F-82C2-4499-AD90-B8339B96F9F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DF9C1F-82C2-4499-AD90-B8339B96F9F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DF9C1F-82C2-4499-AD90-B8339B96F9F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DF9C1F-82C2-4499-AD90-B8339B96F9F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C5F43EE-8D85-4F88-8347-B5661134A17B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C5F43EE-8D85-4F88-8347-B5661134A17B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C5F43EE-8D85-4F88-8347-B5661134A17B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C5F43EE-8D85-4F88-8347-B5661134A17B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33BE7634-EF9C-48F8-9385-5FEFBA2B6200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33BE7634-EF9C-48F8-9385-5FEFBA2B6200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33BE7634-EF9C-48F8-9385-5FEFBA2B6200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33BE7634-EF9C-48F8-9385-5FEFBA2B6200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{690236DE-3244-4D57-8143-9ED2547D7820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690236DE-3244-4D57-8143-9ED2547D7820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{690236DE-3244-4D57-8143-9ED2547D7820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690236DE-3244-4D57-8143-9ED2547D7820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AB087D4-1756-4684-8E1A-216D5BFC1E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB087D4-1756-4684-8E1A-216D5BFC1E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB087D4-1756-4684-8E1A-216D5BFC1E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB087D4-1756-4684-8E1A-216D5BFC1E93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CED3E1D7-895D-4538-A6B5-A75B6773453F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED3E1D7-895D-4538-A6B5-A75B6773453F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED3E1D7-895D-4538-A6B5-A75B6773453F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED3E1D7-895D-4538-A6B5-A75B6773453F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7219CD9-66D4-CC9C-136D-3D83AC4884B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7219CD9-66D4-CC9C-136D-3D83AC4884B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7219CD9-66D4-CC9C-136D-3D83AC4884B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7219CD9-66D4-CC9C-136D-3D83AC4884B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2DF9C1F-82C2-4499-AD90-B8339B96F9F1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{2C5F43EE-8D85-4F88-8347-B5661134A17B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{33BE7634-EF9C-48F8-9385-5FEFBA2B6200} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{690236DE-3244-4D57-8143-9ED2547D7820} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{8AB087D4-1756-4684-8E1A-216D5BFC1E93} = {6FAE5CDA-860A-4E1E-92F8-4683D9611D92}
+		{CED3E1D7-895D-4538-A6B5-A75B6773453F} = {6FAE5CDA-860A-4E1E-92F8-4683D9611D92}
+		{B7219CD9-66D4-CC9C-136D-3D83AC4884B4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CE2B360-D134-44C0-BF56-1DE46C644E8B}
+	EndGlobalSection
+EndGlobal

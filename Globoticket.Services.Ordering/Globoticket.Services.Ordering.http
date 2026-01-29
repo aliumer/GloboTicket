@@ -1,0 +1,6 @@
+@Globoticket.Services.Ordering_HostAddress = http://localhost:5145
+
+GET {{Globoticket.Services.Ordering_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

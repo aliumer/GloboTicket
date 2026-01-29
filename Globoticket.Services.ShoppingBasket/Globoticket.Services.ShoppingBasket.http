@@ -1,0 +1,6 @@
+@Globoticket.Services.ShoppingBasket_HostAddress = http://localhost:5221
+
+GET {{Globoticket.Services.ShoppingBasket_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,6 @@
+@Globoticket.Services.Discount_HostAddress = http://localhost:5015
+
+GET {{Globoticket.Services.Discount_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
